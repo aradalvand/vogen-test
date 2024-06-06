@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+	  <ProjectReference Include="..\One\One.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>vogen_test</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+	</PropertyGroup>
+
+</Project>
